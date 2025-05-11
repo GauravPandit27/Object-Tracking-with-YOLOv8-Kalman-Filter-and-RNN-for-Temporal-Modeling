@@ -12,7 +12,7 @@ import torch.nn as nn
 model = YOLO("yolov5m.pt")  # You can also try yolov5m.pt or yolov5l.pt
 
 # Input video path
-input_video_path = "/home/gaurav/Desktop/Projects/company/macv-obj-tracking-video.mp4"
+input_video_path = "/home/gaurav/Desktop/Projects/company/obj-tracking-video.mp4"
 
 # Output CSV path
 output_csv_path = "object_tracking_metrics.csv"
