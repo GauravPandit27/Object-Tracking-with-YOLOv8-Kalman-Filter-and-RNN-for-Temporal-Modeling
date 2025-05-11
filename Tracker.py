@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 
 # Load YOLOv8s model (you can use yolov5s, yolov5m, etc. depending on your model)
-model = YOLO("yolov5m.pt")  # You can also try yolov5m.pt or yolov5l.pt
+model = YOLO("yolov8m.pt")  # You can also try yolov5m.pt or yolov5l.pt
 
 # Input video path
 input_video_path = "/home/gaurav/Desktop/Projects/company/obj-tracking-video.mp4"
